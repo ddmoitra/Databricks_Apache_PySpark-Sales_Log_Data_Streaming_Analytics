@@ -1,6 +1,6 @@
 ### Title
 
-* Databricks Spark Python -  Sales Log Data Streaming and Analytics 
+* Databricks Spark Python -  Sales Log Data Streaming Analytics 
 
 ### About / Synopsis
 
@@ -23,7 +23,7 @@
 * The "file:/databricks/driver/sales_log/" directory location is checked to see all the unzipped .csv files
 ![image](https://user-images.githubusercontent.com/46364751/125230481-d7ecc900-e2a6-11eb-8f65-94e64b3dfc08.png)
 
-* Using PySpark, a static df is initially created based on defined schema to test the data ingestion process. The data can be displayed as both table and bar chart
+* Using PySpark, a static dataframe is initially created based on defined schema to test the data ingestion process. The data can be displayed as both table and bar chart
 ![image](https://user-images.githubusercontent.com/46364751/125230616-25693600-e2a7-11eb-810e-5c667965462f.png)
 
 * Using PySpark's readStream function, each file is read into the readStreamInputDF dataframe. The isStreaming boolean function is also triggered as validation of whether streaming is occurring.
